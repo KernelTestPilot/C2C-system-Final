@@ -1,7 +1,6 @@
 <?php
 require_once "config.php";
 include_once 'Includes/dbh.inc.php';
-include_once 'Includes/geo.inc.php';
 include_once 'Includes/user.inc.php';
 unset($_SESSION['school']);
 

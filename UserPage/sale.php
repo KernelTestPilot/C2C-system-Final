@@ -8,12 +8,10 @@ require_once "../config.php";
 		  header ('../index.php');
 	  }
 include_once '../Includes/dbh.inc.php';
-include_once '../Includes/geo.inc.php';
 include_once '../Includes/user.inc.php';
 include_once '../Includes/gpscord.php';
 include_once '../Includes/place.inc.php';
 include_once '../Includes/database.php';
-include_once '../Includes/book.inc.php';
 if(!isset($_SESSION['id'])){
 	header('Location: ../login.php');
 }else{
