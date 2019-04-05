@@ -1,0 +1,164 @@
+html,body {
+  font-family: 'Open Sans', serif;
+ 
+}
+.hero.is-success {
+  background: #F2F6FA;
+}
+
+
+
+
+        .hero.is-large .hero-body {
+            padding-bottom: 0;
+            padding-top: 10rem;
+        }
+        .hero figure {
+			
+            height: 0;
+            padding-bottom: 75%;
+            overflow: hidden;
+        }
+        figure.image {
+			
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .bg-white {
+            background-color: #ffffff;
+        }
+        .bg-light {
+            background-color: #faf6fb;
+        }
+        .media-left {
+            padding-left: 15px;
+        }
+        .media-left .icon {
+            margin-top: 15px;
+
+        }
+
+        .media-content {
+            padding-left: 25px;
+        }
+
+        .media {
+            background-color: #ffffff;
+            padding: 25px;
+        }
+
+        .section {
+            padding: 7rem 5rem;
+        }
+
+        .content h1 {
+            margin-bottom: 2em;
+        }
+
+        #stn-download {
+            color: #ffffff;
+            background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+        }
+
+      
+
+        .hero.is-landing * {
+            color: #00A474;
+        }
+
+        #stn-download h1 {
+            color: #ffffff;
+        }
+		.test *  {
+			color: #00A474;
+		}
+        .button.button-store {
+            border-radius: 3px;
+            background: #FFF;
+            box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
+            font-size: 14px;
+            font-weight: 500;
+            color: #00A474;
+            margin: 0.5rem;
+            padding: 0.7rem 1.6rem;
+            line-height: 1.8;
+            height: auto;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+
+            display: inline-block;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+
+        .button.button-store:hover {
+            color: #000000;
+            background-color: #faf6fb;
+        }
+
+        .button.button-store img {
+            margin-right: 0.4rem;
+            vertical-align: text-bottom;
+        }
+  
+ 
+
+p.subtitle{
+    font-size: 1.4em;
+    color: 	#FFFFFF;
+    margin-top: 0;
+}
+
+
+
+
+#dash{
+ 
+    animation: chatblips .5s ease-in-out 2.7s forwards; /* assign animation to dash with 'chatblips' as keyframe name */
+    opacity: 0;
+    z-index: 2;
+}
+
+
+@keyframes monitorIn{
+    from{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes chatblips{
+    /* taken from http://angrytools.com/css/animation/ for bounce-in animation*/
+    0%{
+        opacity: 0;
+        transform: scale(.3);
+      }
+      50%{
+        opacity: 1;
+        transform: scale(1.0);
+      }
+      70%{
+        transform: scale(0.9);
+      }
+      100%{
+        transform: scale(1);
+        opacity: 1;
+      }
+}
+
+.annonser {
+  overflow-x: auto;
+}
+
+#navbar-item{
+	color: #00A474;
+}
+
+
+
+
